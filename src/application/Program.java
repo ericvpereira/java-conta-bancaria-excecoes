@@ -21,6 +21,14 @@ public class Program {
         System.out.print("Withdraw limit: ");
         double withdrawLimit = sc.nextDouble();
 
-        Account account = new Account(number, holder, intialBalance, withdrawLimit);
+        System.out.println();
+        System.out.print("Enter amount for withdraw: ");
+        double amount = sc.nextDouble();
+
+        Account account = new Account();
+        System.out.print("New balance: " );
+
+
+
     }
 }
